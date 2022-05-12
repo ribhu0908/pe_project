@@ -13,6 +13,22 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { ContraintManagerComponent } from './contraint-manager/contraint-manager.component';
+import { FileComponent } from './file/file.component';
+import { SolverComponent } from './solver/solver.component';
+import { SupplyComponent } from './supply/supply.component';
+import { TransportComponent } from './transport/transport.component';
+import { ConfigureComponent } from './configure/configure.component';
+import { ConstraintManagerComponent } from './constraint-manager/constraint-manager.component';
+
+import {MatTabsModule} from '@angular/material/tabs';
+
+import { FormsModule }   from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
+
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +37,13 @@ import { ContraintManagerComponent } from './contraint-manager/contraint-manager
     DashboardComponent,
     NavbarComponent,
     ContraintManagerComponent
+    NavbarComponent,
+    FileComponent,
+    SolverComponent,
+    SupplyComponent,
+    TransportComponent,
+    ConfigureComponent,
+    ConstraintManagerComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +51,11 @@ import { ContraintManagerComponent } from './contraint-manager/contraint-manager
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatTabsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

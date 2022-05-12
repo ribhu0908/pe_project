@@ -1,1 +1,178 @@
-<p>dashboard works!</p>
+<div fxLayout="row">
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title>FILE</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/file.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to generate NEW SCM Graph File/ Generic file,
+        Open Graph file, Save graph file, Close Graph file, Test SCM, Load XML
+        File
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/file'">
+        FILE
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title>EDIT </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/edit.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to edit your files like Copy attributes, Append
+        attributes, set attributes, Expoit nodes, Exploit edges.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/file'">
+        EDIT
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title>VIEW, ABOUT,HELP </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/help.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to view about, and view help options in case you are stuck in
+        our software.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary">
+        HELP
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title>SOLVER</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/solver.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to access CPLEX, QSopt, and Gurobi
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/solver'">
+        SOLVER
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title>OPTIMIZATION PROBLEMS</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/optimization.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to access Constraint Manager.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/constraint-manager'">
+        CONSTRAINT MANAGER
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title> SUPPLY CHAIN MANAGEMENT</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/supply.jpg" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+        This option enables you to access Supply Chain Management which include: Capacity Palnning, Inventory
+        Optimization.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/supply'">
+        SUPPLY CHAIN MANAGEMENT
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title> TRANSPORATION </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/transport.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+       This option enables you to access Demand Analysis for railway coaches and 
+       Autorouting.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/transport'">
+        TRANSPORATION
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card
+    class="example-card inline-block"
+    fxFlexAlign="stretch"
+    style="margin: 15px"
+  >
+    <mat-card-header>
+      <mat-card-title> CONFIGURATION </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/configure.png" alt="Photo of bad roads" />
+    <mat-card-content>
+      <p>
+       This option enables you to set Default Directory and enables you to view all
+       Parameters.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" [routerLink]="'/configure' ">
+        CONFIGURATION
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  
+</div>
