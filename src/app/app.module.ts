@@ -12,13 +12,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { ContraintManagerComponent } from './contraint-manager/contraint-manager.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     DashboardComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContraintManagerComponent
   ],
   imports: [
     BrowserModule,
